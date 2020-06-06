@@ -11,7 +11,7 @@ conda env create -f environment.yml
 ```
 
 
-## Training and Evaluatior
+## Training and Evaluation
 The experiments will load the dataset from the `data/` directory, then split it into training, validation and test sets in customized ratio. The default ratio (also the ratio we use in the paper) is `0.75(training): 0.25(testing)`. To run the experiments in the paper, use this command:
 
 ```train
@@ -22,11 +22,11 @@ e.g.
 # For MNIST dataset
 python run_exp_opennet.py -n cnn -ds mnist -m ce cemmf ii iimmf triplet tripletmmf -trc_file "data/mnist_trc_list" -o "data/results/cnn/mnist"
 
-# For AG dataset
-python run_exp_opennet.py -n flat -ds android -m ce cemmf ii iimmf triplet tripletmmf -trc_file "data/android_trc_list" -o "data/results/flat/android"
-
 # For MC dataset
 python run_exp_opennet.py -n cnn -ds msadjmat -m ce cemmf ii iimmf triplet tripletmmf -trc_file "data/msadjmat_trc_list" -o "data/results/cnn/msadjmat"
+
+# For AG dataset
+python run_exp_opennet.py -n flat -ds android -m ce cemmf ii iimmf triplet tripletmmf -trc_file "data/android_trc_list" -o "data/results/flat/android"
 ```
 The model will be saved as `.cptk` files under customized model directory.
 
