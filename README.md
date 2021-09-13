@@ -1,6 +1,22 @@
 # MMF: A loss extension for feature learning in openset recognition
 
 This repository is the official implementation of "MMF: A loss extension for feature learning in openset recognition". 
+([published_version](https://link.springer.com/chapter/10.1007%2F978-3-030-86340-1_26),  [arxiv](https://arxiv.org/pdf/2006.15117.pdf))
+
+If you use this code please cite the paper.
+```
+@InProceedings{10.1007/978-3-030-86340-1_26,
+author="Jia, Jingyun
+and Chan, Philip K.",
+title="MMF: A Loss Extension for Feature Learning in Open Set Recognition",
+booktitle="Artificial Neural Networks and Machine Learning -- ICANN 2021",
+year="2021",
+publisher="Springer International Publishing",
+pages="319--331",
+isbn="978-3-030-86340-1"
+}
+```
+
 
 ## Requirements
 
